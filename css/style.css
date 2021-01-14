@@ -1,0 +1,131 @@
+body {
+  font-family: "Bebas Neue", cursive;
+}
+
+.header-hero {
+  background-color: #fff9f4;
+}
+
+.header-hero nav {
+  color: #3c3c3c;
+}
+
+/* .header-hero section {
+  overflow: hidden;
+} */
+.header-hero h1 {
+  font-size: 80px;
+}
+.header-hero h1.color-1,
+.priceColor {
+  color: #fa804c;
+}
+.header-hero h1.color-2 {
+  color: #363958;
+  line-height: 60px;
+}
+
+.header-hero p {
+  font-size: 20px;
+  color: #363958;
+  line-height: 20px;
+}
+.button-blue {
+  background: linear-gradient(#3d4ff3, #3543bc);
+}
+
+/*****************Casual Shoes *****************************/
+.product-radius {
+  border-radius: 20px !important;
+}
+.card-border {
+  border: 0;
+}
+
+.card-border .card-footer {
+  background-color: #fff;
+  border-top: 0px;
+}
+
+/* service radius */
+.service-radius {
+  border-radius: 10px !important;
+  background-color: #fff;
+}
+
+.service-radius > div {
+  background-color: #fff;
+}
+
+/* Subscribe */
+.subscribe-content {
+  padding: 80px 0px;
+  border-radius: 20px;
+}
+
+.nav-bar-font {
+  font-size: 18px;
+}
+
+.nav-bar-font a {
+  color: #000;
+}
+
+.card-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.subscribe-content {
+  background-image: url("../images/map.svg");
+  background-position: top;
+}
+
+.subscribe-content h3 {
+  color: #363958;
+}
+
+/***************** Responsive Start *****************************/
+
+@media only screen and (max-width: 991px) {
+  .header-hero h1 {
+    font-size: 50px;
+  }
+
+  .header-hero p {
+    font-size: 16px;
+  }
+
+  .navbar-nav {
+    /* align-items: center; */
+    float: right;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    text-align: end;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-text-left {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .header-hero img {
+    width: 200px;
+  }
+}
+
+.priceColor {
+  font-size: 40px;
+}
+
+@media only screen and (min-width: 991px) {
+  #navbarNavAltMarkup {
+    display: flex;
+    justify-content: flex-end;
+    /* float: right; */
+  }
+}
